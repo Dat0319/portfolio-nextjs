@@ -1,14 +1,18 @@
-import LocalConfig from "@/constants/config";
-import Link from "next/link";
+import styles from '@/app/scroll.module.scss';
+import LocalConfig from '@/constants/config';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Link from 'next/link';
 
 const ResumeButton = () => {
   return (
     <Link
-      className="app__outlined_btn min-w-[10rem]"
+      className={styles.resumeButton}
       href={LocalConfig.values.NEXT_PUBLIC_RESUME_LINK}
       target="_blank"
     >
-      Download Resume
+      {/* Download Resume */}
+      <FontAwesomeIcon icon={faDownload} />
     </Link>
   );
 };

@@ -1,38 +1,38 @@
 class Strings {
-  static telegram = "Telegram";
-  static telegramLink = "https://telegram.me/nixrajput";
-  static telegramUsername = "nixrajput";
+  static telegram = 'Telegram';
+  static telegramLink = 'https://telegram.me/johnremotedev';
+  static telegramUsername = 'John Tran';
 
-  static github = "GitHub";
-  static githubLink = "https://www.github.com/nixrajput";
-  static githubUsername = "nixrajput";
+  static github = 'GitHub';
+  static githubLink = 'https://github.com/Dat0319';
+  static githubUsername = 'Dat0319';
 
-  static linkedIn = "LinkedIn";
-  static linkedInLink = "https://www.linkedin.com/in/nixrajput";
-  static linkedInUsername = "nixrajput";
+  static linkedIn = 'LinkedIn';
+  static linkedInLink = 'https://www.linkedin.com/in/john-remove-dev';
+  static linkedInUsername = 'Dat tran (John)';
 
-  static instagram = "Instagram";
-  static instagramLink = "https://www.instagram.com/nixrajput";
-  static instagramUsername = "nixrajput";
+  static instagram = 'Instagram';
+  static instagramLink = 'https://www.instagram.com/dattran0318';
+  static instagramUsername = 'Duy Đạt';
 
-  static twitter = "Twitter";
-  static twitterLink = "https://www.twitter.com/nixrajput07";
-  static twitterUsername = "nixrajput07";
+  static twitter = 'Twitter';
+  static twitterLink = 'https://x.com/dattran0318';
+  static twitterUsername = '@dattran0318';
 
-  static email = "Email";
-  static primaryEmailLink = "mailto:nkr.nikhil.nkr@gmail.com";
-  static primaryEmail = "nkr.nikhil.nkr@gmail.com";
+  static email = 'Email';
+  static primaryEmailLink = 'mailto:dattran0319@gmail.com';
+  static primaryEmail = 'dattran0319@gmail.com';
 
-  static buyMeACoffee = "BuyMeACoffee";
-  static buyMeACoffeeLink = "https://buymeacoffee.com/nixrajput";
-  static buyMeACoffeeUsername = "nixrajput";
+  static buyMeACoffee = 'BuyMeACoffee';
+  static buyMeACoffeeLink = 'https://buymeacoffee.com/dattran031i';
+  static buyMeACoffeeUsername = '@johnremotedev';
 
-  static koFi = "Ko-Fi";
-  static koFiLink = "https://ko-fi.com/nixrajput";
-  static koFiUsername = "nixrajput";
+  static koFi = 'Ko-Fi';
+  static koFiLink = 'https://ko-fi.com/dattran0318';
+  static koFiUsername = 'Dat Tran (John)';
 
-  static fullName = "Nikhil Rajput";
-  static shortName = "nixrajput";
+  static fullName = 'John Tran';
+  static shortName = 'johnremotedev';
 }
 
 export default Strings;

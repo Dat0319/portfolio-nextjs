@@ -1,12 +1,12 @@
-import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Column from "@/components/core/Column";
-import ConstrainedBox from "@/components/core/constrained-box";
-import ResponsiveBox from "@/components/core/ResponsiveBox";
-import Row from "@/components/core/Row";
-import { FlipWords } from "@/components/common/FlipWords";
-import socialLinks from "@/data/socialLinks";
-import TalkButton from "./ui/TalkButton";
+import { FlipWords } from '@/components/common/FlipWords';
+import Column from '@/components/core/Column';
+import ConstrainedBox from '@/components/core/constrained-box';
+import ResponsiveBox from '@/components/core/ResponsiveBox';
+import Row from '@/components/core/Row';
+import socialLinks from '@/data/socialLinks';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Link from 'next/link';
+import TalkButton from './ui/TalkButton';
 
 const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
   return (
@@ -21,7 +21,7 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
               Hi there, I am
             </p>
             <FlipWords
-              words={["Nikhil Rajput.", "@nixrajput."]}
+              words={['John Tran.', 'Dat0319 github']}
               className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--primaryColor)] text-[var(--primaryColor)] font-bold text-center"
             />
           </div>
@@ -48,7 +48,7 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
                   aria-label={`${link.name}`}
                 >
                   <span className="text-base/6 text-[var(--whiteColor)]">
-                    {typeof link.icon === "string" ? null : (
+                    {typeof link.icon === 'string' ? null : (
                       <FontAwesomeIcon icon={link.icon} />
                     )}
                   </span>

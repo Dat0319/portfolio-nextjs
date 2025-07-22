@@ -1,4 +1,51 @@
 {
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "eslint.format.enable": true,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "editor.wordWrap": "on",
+  "editor.wrappingIndent": "same",
+  "editor.wordWrapColumn": 100,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [100],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Files settings
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+    // "**/dist": true
+    // "**/build": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist": true,
+    "build": true,
+    "generators": true,
+    ".vscode": true,
+    "yarn.lock": true,
+    "yarn-error.log": true,
+    "package-lock.json": true
+  },
+  // default eol in mac is LF === \n
+  // "files.eol": "\n",
+
+  // Eslint settings
+  "eslint.enable": true,
     "cSpell.words": [
         "TECHOX"
     ]

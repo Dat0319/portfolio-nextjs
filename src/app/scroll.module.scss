@@ -32,6 +32,27 @@
   height: 1.5rem;
 }
 
+.resumeButton {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  border: 2px solid var(--whiteColor);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  size: 24px;
+  margin-bottom: 15px;
+  animation: upDown 3s ease-in-out infinite;
+  transition: all 0.25s ease-in-out;
+}
+
+.resumeButton:hover {
+  animation: none;
+  background-color: var(--whiteColor);
+  color: var(--bgColor);
+}
+
 @keyframes upDown {
   0% {
     transform: translateY(0px);
