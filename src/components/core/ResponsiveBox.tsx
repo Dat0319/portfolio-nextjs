@@ -1,4 +1,4 @@
-import type { CoreComponentsProps } from "@/types";
+import type { CoreComponentsProps } from '@/types';
 
 const ResponsiveBox = (props: Readonly<CoreComponentsProps>) => {
   const { children, classNames, id, elementRef, onClick } = props;

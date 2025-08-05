@@ -1,7 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
-const paymentUrl = "https://rzp.io/l/nixrajput-project-payment";
+const paymentUrl = 'https://rzp.io/l/nixrajput-project-payment';
 
 function RazorPayButton() {
   return (
@@ -16,14 +16,14 @@ function RazorPayButton() {
         width={100}
         height={100}
         className="h-[1.5rem] w-auto aspect-square"
-        style={{ filter: "brightness(0) invert(1)" }}
+        style={{ filter: 'brightness(0) invert(1)' }}
       />
 
       <div className="flex flex-col">
         <p className="font-bold text-base/none">Pay Now</p>
         <p
           className="text-xs text-[var(--textColor80)]"
-          style={{ textTransform: "initial" }}
+          style={{ textTransform: 'initial' }}
         >
           Secured by Razorpay
         </p>

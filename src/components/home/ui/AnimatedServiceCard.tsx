@@ -1,10 +1,9 @@
-"use client";
+'use client';
 
-import { animate, motion } from "framer-motion";
-import { useEffect } from "react";
-import { cn } from "@/utils/cn";
-import { IServiceItem } from "@/types";
-import Image from "next/image";
+import { IServiceItem } from '@/types';
+import { cn } from '@/utils/cn';
+import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export function AnimatedServiceCard({
   item,
@@ -22,10 +21,10 @@ export function AnimatedServiceCard({
 
 const IconSkeleton = ({ item }: Readonly<{ item: IServiceItem }>) => {
   const scale = [1, 1.1, 1];
-  const transform = ["translateY(0px)", "translateY(-4px)", "translateY(0px)"];
+  const transform = ['translateY(0px)', 'translateY(-4px)', 'translateY(0px)'];
   const sequence = [
     [
-      ".circle-1",
+      '.circle-1',
       {
         scale,
         transform,
@@ -33,7 +32,7 @@ const IconSkeleton = ({ item }: Readonly<{ item: IServiceItem }>) => {
       { duration: 0.8 },
     ],
     [
-      ".circle-2",
+      '.circle-2',
       {
         scale,
         transform,
@@ -41,7 +40,7 @@ const IconSkeleton = ({ item }: Readonly<{ item: IServiceItem }>) => {
       { duration: 0.8 },
     ],
     [
-      ".circle-3",
+      '.circle-3',
       {
         scale,
         transform,
@@ -49,7 +48,7 @@ const IconSkeleton = ({ item }: Readonly<{ item: IServiceItem }>) => {
       { duration: 0.8 },
     ],
     [
-      ".circle-4",
+      '.circle-4',
       {
         scale,
         transform,
@@ -57,7 +56,7 @@ const IconSkeleton = ({ item }: Readonly<{ item: IServiceItem }>) => {
       { duration: 0.8 },
     ],
     [
-      ".circle-5",
+      '.circle-5',
       {
         scale,
         transform,
@@ -170,15 +169,15 @@ const Sparkles = () => {
           transition={{
             duration: random() * 2 + 4,
             repeat: Infinity,
-            ease: "linear",
+            ease: 'linear',
           }}
           style={{
-            position: "absolute",
+            position: 'absolute',
             top: `${random() * 100}%`,
             left: `${random() * 100}%`,
             width: `2px`,
             height: `2px`,
-            borderRadius: "50%",
+            borderRadius: '50%',
             zIndex: 1,
           }}
           className="inline-block bg-white"
@@ -198,7 +197,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "relative w-full h-full mx-auto overflow-hidden rounded-[var(--borderRadius)] border border-[rgba(255,255,255,0.10)] dark:bg-[var(--primaryColor5)] bg-[var(--primaryColor5)] shadow-[2px_4px_16px_0px_rgba(100,100,100,0.06)_inset] group",
+        'relative w-full h-full mx-auto overflow-hidden rounded-[var(--borderRadius)] border border-[rgba(255,255,255,0.10)] dark:bg-[var(--primaryColor5)] bg-[var(--primaryColor5)] shadow-[2px_4px_16px_0px_rgba(100,100,100,0.06)_inset] group',
         className
       )}
     >
@@ -219,7 +218,7 @@ export const CardTitle = ({
   return (
     <h3
       className={cn(
-        "text-lg lg:text-xl xl:text-2xl font-semibold text-[var(--primaryColor)] dark:text-[var(--primaryColor)] py-2 tracking-wide",
+        'text-lg lg:text-xl xl:text-2xl font-semibold text-[var(--primaryColor)] dark:text-[var(--primaryColor)] py-2 tracking-wide',
         className
       )}
     >
@@ -238,7 +237,7 @@ export const CardDescription = ({
   return (
     <p
       className={cn(
-        "text-sm/6 lg:text-base/6 font-normal tracking-wide",
+        'text-sm/6 lg:text-base/6 font-normal tracking-wide',
         className
       )}
     >
@@ -259,10 +258,10 @@ export const CardSkeletonContainer = ({
   return (
     <div
       className={cn(
-        "rounded-[var(--borderRadius)] z-40 mb-4",
+        'rounded-[var(--borderRadius)] z-40 mb-4',
         className,
         showGradient &&
-          "bg-bg-[rgba(40,40,40,0.70)] dark:bg-[rgba(40,40,40,0.70)] [mask-image:radial-gradient(50%_50%_at_50%_50%,white_0%,transparent_100%)]"
+          'bg-bg-[rgba(40,40,40,0.70)] dark:bg-[rgba(40,40,40,0.70)] [mask-image:radial-gradient(50%_50%_at_50%_50%,white_0%,transparent_100%)]'
       )}
     >
       {children}

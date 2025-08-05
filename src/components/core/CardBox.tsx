@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import type { MouseEvent } from "react";
-import type { CoreComponentsProps } from "@/types";
-import { motion, useMotionTemplate, useSpring } from "framer-motion";
+import type { CoreComponentsProps } from '@/types';
+import { motion, useMotionTemplate, useSpring } from 'framer-motion';
+import type { MouseEvent } from 'react';
 
 const CardBox = (props: Readonly<CoreComponentsProps>) => {
   const { children, classNames, onClick, id, elementRef } = props;

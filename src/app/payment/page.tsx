@@ -1,8 +1,8 @@
-import dynamic from "next/dynamic";
+import dynamic from 'next/dynamic';
 
-const PageBox = dynamic(() => import("@/components/core/PageBox"));
+const PageBox = dynamic(() => import('@/components/core/PageBox'));
 const PaymentMainSection = dynamic(
-  () => import("@/components/payment/MainSection")
+  () => import('@/components/payment/MainSection')
 );
 
 const Home = () => {

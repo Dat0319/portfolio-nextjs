@@ -1,9 +1,9 @@
-import ConstrainedBox from "@/components/core/constrained-box";
-import ResponsiveBox from "@/components/core/ResponsiveBox";
-import SectionTitle from "@/components/common/SectionTitle";
-import { Timeline } from "@/components/common/timeline";
-import ExperienceItem from "./ui/ExperienceItem";
-import experiences from "@/data/experiences";
+import SectionTitle from '@/components/common/SectionTitle';
+import { Timeline } from '@/components/common/timeline';
+import ConstrainedBox from '@/components/core/constrained-box';
+import ResponsiveBox from '@/components/core/ResponsiveBox';
+import experiences from '@/data/experiences';
+import ExperienceItem from './ui/ExperienceItem';
 
 const HomeSection3 = ({ id }: { id: string }) => {
   return (
@@ -16,7 +16,7 @@ const HomeSection3 = ({ id }: { id: string }) => {
 
         <Timeline
           data={experiences.map((exp, i) => ({
-            title: exp.startDate + " - " + (exp.endDate || "Present"),
+            title: exp.startDate + ' - ' + (exp.endDate || 'Present'),
             content: <ExperienceItem key={`experience-${i}`} data={exp} />,
           }))}
         />

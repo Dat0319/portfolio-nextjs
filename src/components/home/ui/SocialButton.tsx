@@ -1,7 +1,7 @@
-import type { ISocialLinkItem } from "@/types";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Image from "next/image";
-import Link from "next/link";
+import type { ISocialLinkItem } from '@/types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const SocialButton = ({ text, icon, url }: ISocialLinkItem) => {
   return (
@@ -11,7 +11,7 @@ const SocialButton = ({ text, icon, url }: ISocialLinkItem) => {
       target="_blank"
     >
       <span className="text-xl/6 text-[var(--textColor)]">
-        {typeof icon === "string" ? (
+        {typeof icon === 'string' ? (
           <Image
             src={icon}
             alt={`social-${text}`}

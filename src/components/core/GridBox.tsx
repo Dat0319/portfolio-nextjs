@@ -1,4 +1,4 @@
-import type { CoreComponentsProps } from "@/types";
+import type { CoreComponentsProps } from '@/types';
 
 const GridBox = (props: Readonly<CoreComponentsProps>) => {
   const { children, classNames, onClick, id, elementRef } = props;

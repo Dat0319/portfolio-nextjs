@@ -7,7 +7,7 @@ import {
   faEnvelope,
   faLaptopCode,
   faTimeline,
-  faUser
+  faUser,
 } from '@fortawesome/free-solid-svg-icons';
 
 export const navMenus: INavItem[] = [
@@ -19,32 +19,32 @@ export const navMenus: INavItem[] = [
   {
     name: 'About',
     link: '/#about',
-    icon: faUser
+    icon: faUser,
   },
   {
     name: 'Services',
     link: '/#services',
-    icon: faBriefcase
+    icon: faBriefcase,
   },
   {
     name: 'Experiences',
     link: '/#experiences',
-    icon: faTimeline
+    icon: faTimeline,
   },
   {
     name: 'Skills',
     link: '/#skills',
-    icon: faAward
+    icon: faAward,
   },
   {
     name: 'Projects',
     link: '/#projects',
-    icon: faLaptopCode
+    icon: faLaptopCode,
   },
   {
     name: 'Contact',
     link: '/#contact',
-    icon: faEnvelope
+    icon: faEnvelope,
   },
   // {
   //   name: 'Payment',
@@ -54,6 +54,6 @@ export const navMenus: INavItem[] = [
   {
     name: 'Resume',
     link: LocalConfig.values.NEXT_PUBLIC_RESUME_LINK,
-    icon: faDownload
-  }
+    icon: faDownload,
+  },
 ];

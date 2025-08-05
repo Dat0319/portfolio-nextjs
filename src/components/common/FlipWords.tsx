@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import { useCallback, useEffect, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
-import { cn } from "@/utils/cn";
+import { cn } from '@/utils/cn';
+import { AnimatePresence, motion } from 'framer-motion';
+import { useCallback, useEffect, useState } from 'react';
 
 export const FlipWords = ({
   words,
@@ -46,8 +46,8 @@ export const FlipWords = ({
         }}
         transition={{
           duration: 0.5,
-          ease: "easeInOut",
-          type: "spring",
+          ease: 'easeInOut',
+          type: 'spring',
           stiffness: 100,
           damping: 10,
         }}
@@ -55,12 +55,12 @@ export const FlipWords = ({
           opacity: 0,
           y: -40,
           x: 40,
-          filter: "blur(8px)",
+          filter: 'blur(8px)',
           scale: 2,
-          position: "absolute",
+          position: 'absolute',
         }}
         className={cn(
-          "z-10 inline-block relative text-left text-[var(--textColor)] dark:text-[var(--textColor)] ml-2",
+          'z-10 inline-block relative text-left text-[var(--textColor)] dark:text-[var(--textColor)] ml-2',
           className
         )}
         key={currentWord}
@@ -68,8 +68,8 @@ export const FlipWords = ({
         {currentWord.split(/(?<=\s)/).map((letter, index) => (
           <motion.span
             key={currentWord + index}
-            initial={{ opacity: 0, y: 10, filter: "blur(8px)" }}
-            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            initial={{ opacity: 0, y: 10, filter: 'blur(8px)' }}
+            animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             transition={{
               delay: index * 0.08,
               duration: 1,

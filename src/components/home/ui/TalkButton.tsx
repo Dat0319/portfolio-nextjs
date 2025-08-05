@@ -1,5 +1,5 @@
-import Link from "next/link";
-import Strings from "@/constants/strings";
+import Strings from '@/constants/strings';
+import Link from 'next/link';
 
 const TalkButton = () => {
   return (

@@ -1,5 +1,5 @@
-import { IconDefinition, IconProp } from "@fortawesome/fontawesome-svg-core";
-import type { MouseEventHandler, ReactNode, RefObject } from "react";
+import { IconDefinition, IconProp } from '@fortawesome/fontawesome-svg-core';
+import type { MouseEventHandler, ReactNode, RefObject } from 'react';
 
 export interface INavMenuItem {
   id: string;
@@ -93,7 +93,7 @@ export interface MenuItemProps {
 }
 
 export interface DropdownMenuProps
-  extends Omit<MenuItemProps, "items" | "current"> {
+  extends Omit<MenuItemProps, 'items' | 'current'> {
   submenus: INavMenuItem[];
   dropdown: boolean;
 }

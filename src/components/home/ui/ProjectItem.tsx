@@ -1,15 +1,15 @@
-"use client";
+'use client';
 
-import { RepoType, type IProjectItem } from "@/types";
-import { Balancer } from "react-wrap-balancer";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEye } from "@fortawesome/free-solid-svg-icons";
-import Image from "next/image";
-import Link from "next/link";
-import Column from "@/components/core/Column";
-import Row from "@/components/core/Row";
-import CardBox from "@/components/core/CardBox";
+import CardBox from '@/components/core/CardBox';
+import Column from '@/components/core/Column';
+import Row from '@/components/core/Row';
+import { RepoType, type IProjectItem } from '@/types';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEye } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Balancer } from 'react-wrap-balancer';
 
 const ProjectItem = ({ project }: { project: IProjectItem }) => {
   return (
@@ -34,12 +34,12 @@ const ProjectItem = ({ project }: { project: IProjectItem }) => {
         <div
           className={`flex flex-row items-center justify-center rounded-full py-[0.05] px-[0.5rem] mt-4 capitalize text-center border ${
             project.repoType === RepoType.Private
-              ? "text-[var(--errorColor)] border-[var(--errorColor50)]"
-              : "text-[var(--successColor)] border-[var(--successColor50)]"
+              ? 'text-[var(--errorColor)] border-[var(--errorColor50)]'
+              : 'text-[var(--successColor)] border-[var(--successColor50)]'
           }`}
         >
           <p className="text-xs/6 font-semibold">
-            {project.repoType === RepoType.Private ? "Private" : "Public"}
+            {project.repoType === RepoType.Private ? 'Private' : 'Public'}
           </p>
         </div>
 

@@ -1,8 +1,8 @@
-import type { ISkillListItem } from "@/types";
-import Image from "next/image";
-import CardBox from "@/components/core/CardBox";
-import Row from "@/components/core/Row";
-import Column from "@/components/core/Column";
+import CardBox from '@/components/core/CardBox';
+import Column from '@/components/core/Column';
+import Row from '@/components/core/Row';
+import type { ISkillListItem } from '@/types';
+import Image from 'next/image';
 
 const SkillItem = ({ data }: { data: ISkillListItem }) => {
   return (

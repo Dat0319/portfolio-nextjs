@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { cn } from "@/utils/cn";
-import { AnimatedServiceCard } from "../home/ui/AnimatedServiceCard";
+import { cn } from '@/utils/cn';
+import { AnimatePresence, motion } from 'framer-motion';
+import { useState } from 'react';
+import { AnimatedServiceCard } from '../home/ui/AnimatedServiceCard';
 
 export const HoverLayoutGrid = ({
   cards,
@@ -17,7 +17,7 @@ export const HoverLayoutGrid = ({
   return (
     <div
       className={cn(
-        "w-full grid grid-cols-1 md:grid-cols-2 mt-16 gap-4",
+        'w-full grid grid-cols-1 md:grid-cols-2 mt-16 gap-4',
         className
       )}
     >

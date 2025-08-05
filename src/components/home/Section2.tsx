@@ -1,8 +1,8 @@
-import ConstrainedBox from "@/components/core/constrained-box";
-import ResponsiveBox from "@/components/core/ResponsiveBox";
-import SectionTitle from "@/components/common/SectionTitle";
-import { HoverLayoutGrid } from "@/components/common/HoverLayoutGrid";
-import services from "@/data/services";
+import { HoverLayoutGrid } from '@/components/common/HoverLayoutGrid';
+import SectionTitle from '@/components/common/SectionTitle';
+import ConstrainedBox from '@/components/core/constrained-box';
+import ResponsiveBox from '@/components/core/ResponsiveBox';
+import services from '@/data/services';
 
 const HomeSection2 = ({ id }: { id: string }) => {
   return (

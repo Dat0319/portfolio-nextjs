@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import { useEffect } from "react";
-import { cn } from "@/utils/cn";
-import { motion, stagger, useAnimate, useInView } from "framer-motion";
+import { cn } from '@/utils/cn';
+import { motion, stagger, useAnimate, useInView } from 'framer-motion';
+import { useEffect } from 'react';
 
 export const TypewriterEffect = ({
   words,
@@ -24,7 +24,7 @@ export const TypewriterEffect = ({
   const wordsArray = words.map((word) => {
     return {
       ...word,
-      text: word.text.split(""),
+      text: word.text.split(''),
     };
   });
 
@@ -34,16 +34,16 @@ export const TypewriterEffect = ({
   useEffect(() => {
     if (isInView) {
       animate(
-        "span",
+        'span',
         {
-          display: "inline-block",
+          display: 'inline-block',
           opacity: 1,
-          width: "fit-content",
+          width: 'fit-content',
         },
         {
           duration: 0.5,
           delay: stagger(0.1),
-          ease: "easeInOut",
+          ease: 'easeInOut',
         }
       );
     }
@@ -77,10 +77,10 @@ export const TypewriterEffect = ({
   return (
     <span
       className={cn(
-        "text-2xl/normal sm:text-3xl/normal md:text-4xl/normal lg:text-5xl/normal xl:text-6xl/normal font-bold",
+        'text-2xl/normal sm:text-3xl/normal md:text-4xl/normal lg:text-5xl/normal xl:text-6xl/normal font-bold',
         className
       )}
-      style={{ whiteSpace: "nowrap" }}
+      style={{ whiteSpace: 'nowrap' }}
     >
       {renderWords()}
       <motion.span
@@ -93,10 +93,10 @@ export const TypewriterEffect = ({
         transition={{
           duration: 0.9,
           repeat: Infinity,
-          repeatType: "reverse",
+          repeatType: 'reverse',
         }}
         className={cn(
-          "inline-block rounded-sm h-[4px] md:h-[5px] lg:h-[6px] w-4 md:w-6 lg:w-10 bg-[var(--textColor)]",
+          'inline-block rounded-sm h-[4px] md:h-[5px] lg:h-[6px] w-4 md:w-6 lg:w-10 bg-[var(--textColor)]',
           cursorClassName
         )}
       ></motion.span>
@@ -122,7 +122,7 @@ export const TypewriterEffectSmooth = ({
   const wordsArray = words.map((word) => {
     return {
       ...word,
-      text: word.text.split(""),
+      text: word.text.split(''),
     };
   });
 
@@ -153,18 +153,18 @@ export const TypewriterEffectSmooth = ({
 
   return (
     <motion.span
-      className={cn("relative inline-block overflow-hidden", className)}
-      initial={{ width: "0%" }}
-      animate={{ width: "fit-content" }}
+      className={cn('relative inline-block overflow-hidden', className)}
+      initial={{ width: '0%' }}
+      animate={{ width: 'fit-content' }}
       transition={{
         duration: duration || 2,
-        ease: "linear",
+        ease: 'linear',
         delay: delay || 1,
       }}
     >
       <span
         className="text-2xl/normal sm:text-3xl/normal md:text-4xl/normal lg:text-5xl/normal xl:text-6xl/normal font-bold text-center"
-        style={{ whiteSpace: "nowrap" }}
+        style={{ whiteSpace: 'nowrap' }}
       >
         {renderWords()}
       </span>

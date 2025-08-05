@@ -20,8 +20,8 @@ const poppins = Poppins({
     'Oxygen',
     'Ubuntu',
     'Fira Sans',
-    'Droid Sans'
-  ]
+    'Droid Sans',
+  ],
 });
 
 export const metadata: Metadata = {
@@ -36,34 +36,34 @@ export const metadata: Metadata = {
       follow: true,
       'max-video-preview': -1,
       'max-image-preview': 'large',
-      'max-snippet': -1
-    }
+      'max-snippet': -1,
+    },
   },
   icons: [
     {
       url: '/favicon-16x16.ico',
       rel: 'icon',
       sizes: '16x16',
-      type: 'image/x-icon'
+      type: 'image/x-icon',
     },
     {
       url: '/favicon-32x32.ico',
       rel: 'icon',
       sizes: '32x32',
-      type: 'image/x-icon'
+      type: 'image/x-icon',
     },
     {
       url: '/favicon-48x48.ico',
       rel: 'icon',
       sizes: '48x48',
-      type: 'image/x-icon'
+      type: 'image/x-icon',
     },
     {
       url: '/favicon-64x64.ico',
       rel: 'icon',
       sizes: '64x64',
-      type: 'image/x-icon'
-    }
+      type: 'image/x-icon',
+    },
   ],
   keywords: [
     'john tran',
@@ -76,8 +76,8 @@ export const metadata: Metadata = {
     'john tran software engineer',
     'john tran web developer',
     'Dattran0318 github',
-    'Dattran0319 github'
-  ]
+    'Dattran0319 github',
+  ],
 };
 
 const GoogleAnalytics = dynamic(
@@ -85,7 +85,7 @@ const GoogleAnalytics = dynamic(
   { ssr: false }
 );
 const WebVitals = dynamic(() => import('@/components/common/WebVitals'), {
-  ssr: false
+  ssr: false,
 });
 const FloatingNavbar = dynamic(
   () => import('@/components/navbar/FloatingNavbar')

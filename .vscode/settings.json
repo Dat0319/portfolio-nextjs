@@ -46,7 +46,10 @@
 
   // Eslint settings
   "eslint.enable": true,
-    "cSpell.words": [
-        "TECHOX"
-    ]
+  "cSpell.words": ["TECHOX"],
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  }
 }

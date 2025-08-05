@@ -1,6 +1,6 @@
-import { useEffect, useState, useCallback } from "react";
-import { throttle } from "lodash";
-import { navMenus } from "@/data/navMenus";
+import { navMenus } from '@/data/navMenus';
+import { throttle } from 'lodash';
+import { useCallback, useEffect, useState } from 'react';
 
 function useVisibleSection(sections = navMenus) {
   const [visibleSectionId, setVisibleSectionId] = useState<string>(
@@ -42,18 +42,18 @@ function useVisibleSection(sections = navMenus) {
   useEffect(() => {
     const handler = throttle(checkVisibility, 300);
 
-    if (document.readyState === "complete") handler();
+    if (document.readyState === 'complete') handler();
 
-    window.addEventListener("DOMContentLoaded", handler);
-    window.addEventListener("load", handler);
-    window.addEventListener("scroll", handler);
-    window.addEventListener("resize", handler);
+    window.addEventListener('DOMContentLoaded', handler);
+    window.addEventListener('load', handler);
+    window.addEventListener('scroll', handler);
+    window.addEventListener('resize', handler);
 
     return () => {
-      window.removeEventListener("DOMContentLoaded", handler);
-      window.removeEventListener("load", handler);
-      window.removeEventListener("scroll", handler);
-      window.removeEventListener("resize", handler);
+      window.removeEventListener('DOMContentLoaded', handler);
+      window.removeEventListener('load', handler);
+      window.removeEventListener('scroll', handler);
+      window.removeEventListener('resize', handler);
     };
   }, [checkVisibility]);
 

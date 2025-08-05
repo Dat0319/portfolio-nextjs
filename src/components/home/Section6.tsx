@@ -1,10 +1,10 @@
-import ResponsiveBox from "@/components/core/ResponsiveBox";
-import ConstrainedBox from "@/components/core/constrained-box";
-import GridBox from "@/components/core/GridBox";
-import Column from "@/components/core/Column";
-import SectionTitle from "@/components/common/SectionTitle";
-import SocialButton from "./ui/SocialButton";
-import socialLinks from "@/data/socialLinks";
+import SectionTitle from '@/components/common/SectionTitle';
+import Column from '@/components/core/Column';
+import ConstrainedBox from '@/components/core/constrained-box';
+import GridBox from '@/components/core/GridBox';
+import ResponsiveBox from '@/components/core/ResponsiveBox';
+import socialLinks from '@/data/socialLinks';
+import SocialButton from './ui/SocialButton';
 
 const HomeSection6 = ({ id }: { id: string }) => {
   return (
@@ -30,7 +30,7 @@ const HomeSection6 = ({ id }: { id: string }) => {
           </GridBox>
 
           <p className="text-center mx-auto mt-16 text-2xl/6 font-semibold">
-            I&apos;m{" "}
+            I&apos;m{' '}
             <span className="text-[var(--primaryColor)]">available</span> for
             freelancing.
           </p>

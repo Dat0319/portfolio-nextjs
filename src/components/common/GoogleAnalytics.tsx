@@ -1,5 +1,5 @@
-import LocalConfig from "@/constants/config";
-import Script from "next/script";
+import LocalConfig from '@/constants/config';
+import Script from 'next/script';
 
 const GoogleAnalytics = () => (
   <>

@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import { useState, useEffect } from "react";
+import { useEffect, useState } from 'react';
 
 const useScrolled = (offset?: number) => {
   const [scrolled, setScrolled] = useState<boolean>(false);
@@ -11,7 +11,7 @@ const useScrolled = (offset?: number) => {
       !offset ||
       offset < 0 ||
       offset > window.innerHeight ||
-      typeof offset !== "number" ||
+      typeof offset !== 'number' ||
       isNaN(offset) ||
       !isFinite(offset) ||
       offset === Infinity ||
@@ -31,11 +31,11 @@ const useScrolled = (offset?: number) => {
       }
     };
 
-    if (document.readyState === "complete") handleScroll();
+    if (document.readyState === 'complete') handleScroll();
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
-    return () => window.removeEventListener("scroll", handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, [offset]);
 
   return scrolled;

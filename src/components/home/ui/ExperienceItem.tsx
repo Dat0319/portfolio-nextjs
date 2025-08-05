@@ -1,6 +1,6 @@
-import type { IExperienceItem } from "@/types";
-import Column from "@/components/core/Column";
-import BulletedText from "@/components/common/bulleted-text";
+import BulletedText from '@/components/common/bulleted-text';
+import Column from '@/components/core/Column';
+import type { IExperienceItem } from '@/types';
 
 const ExperienceItem = ({ data }: { data: IExperienceItem }) => {
   return (

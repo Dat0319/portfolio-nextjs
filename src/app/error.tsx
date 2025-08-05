@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import * as Sentry from "@sentry/nextjs";
-import { useEffect } from "react";
+import * as Sentry from '@sentry/nextjs';
+import { useEffect } from 'react';
 
 const Error = ({
   error,
@@ -30,7 +30,7 @@ const Error = ({
       <button
         className="app__text_btn"
         style={{
-          margin: "1rem auto 0",
+          margin: '1rem auto 0',
         }}
         onClick={() => reset()}
       >

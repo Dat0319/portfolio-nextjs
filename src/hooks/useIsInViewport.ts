@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import type { ViewportProps } from "@/types";
-import { useEffect, useState, useMemo, RefObject } from "react";
+import type { ViewportProps } from '@/types';
+import { RefObject, useEffect, useMemo, useState } from 'react';
 
 const useInViewport = (
   ref: RefObject<HTMLDataElement>,
@@ -12,7 +12,7 @@ const useInViewport = (
   const vOptions = useMemo(
     () => ({
       root: options?.root,
-      rootMargin: options?.rootMargin || "20px",
+      rootMargin: options?.rootMargin || '20px',
       threshold: options?.threshold || 0.3,
     }),
     [options]

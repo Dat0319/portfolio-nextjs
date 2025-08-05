@@ -1,8 +1,8 @@
-import Link from "next/link";
-import { ReactNode } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faXmark } from "@fortawesome/free-solid-svg-icons";
-import Column from "@/components/core/Column";
+import Column from '@/components/core/Column';
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Link from 'next/link';
+import { ReactNode } from 'react';
 
 const Modal = ({
   children,

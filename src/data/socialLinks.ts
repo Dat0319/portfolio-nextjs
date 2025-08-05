@@ -1,13 +1,13 @@
+import Strings from '@/constants/strings';
+import type { ISocialLinkItem } from '@/types';
 import {
   faGithub,
+  faInstagram,
   faLinkedin,
   faTelegram,
-  faInstagram,
   faXTwitter,
-} from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import Strings from "@/constants/strings";
-import type { ISocialLinkItem } from "@/types";
+} from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const socialLinks: ISocialLinkItem[] = [
   {
@@ -49,13 +49,13 @@ const socialLinks: ISocialLinkItem[] = [
   {
     name: Strings.buyMeACoffee,
     url: Strings.buyMeACoffeeLink,
-    icon: "/images/buy-me-a-coffee.png",
+    icon: '/images/buy-me-a-coffee.png',
     text: Strings.buyMeACoffeeUsername,
   },
   {
     name: Strings.koFi,
     url: Strings.koFiLink,
-    icon: "/images/ko-fi.png",
+    icon: '/images/ko-fi.png',
     text: Strings.buyMeACoffeeUsername,
   },
 ];

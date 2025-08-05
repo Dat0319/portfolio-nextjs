@@ -7,19 +7,24 @@ const skills: ISkillListItem[] = [
       {
         title: 'JavaScript',
         level: SkillLevel.Expert,
-        icon: '/skills/javascript.svg'
+        icon: '/skills/javascript.svg',
       },
       {
         title: 'TypeScript',
         level: SkillLevel.Intermediate,
-        icon: '/skills/typescript.svg'
+        icon: '/skills/typescript.svg',
       },
       {
         title: '.NET',
         level: SkillLevel.Expert,
-        icon: '/skills/NETCore.svg'
-      }
-    ]
+        icon: '/skills/NETCore.svg',
+      },
+      {
+        title: 'Java Spring boot',
+        level: SkillLevel.Expert,
+        icon: '/skills/spring.svg',
+      },
+    ],
   },
   {
     title: 'Frontend Development',
@@ -27,54 +32,54 @@ const skills: ISkillListItem[] = [
       {
         title: 'Next.js',
         level: SkillLevel.Expert,
-        icon: '/skills/nextjs.png'
+        icon: '/skills/nextjs.png',
       },
       {
         title: 'React.js',
         level: SkillLevel.Expert,
-        icon: '/skills/react.svg'
+        icon: '/skills/react.svg',
       },
       {
         title: 'HTML',
         level: SkillLevel.Expert,
-        icon: '/skills/html.svg'
+        icon: '/skills/html.svg',
       },
       {
         title: 'CSS',
         level: SkillLevel.Intermediate,
-        icon: '/skills/css.svg'
+        icon: '/skills/css.svg',
       },
       {
         title: 'SASS',
         level: SkillLevel.Intermediate,
-        icon: '/skills/sass.svg'
+        icon: '/skills/sass.svg',
       },
       {
         title: 'Redux Toolkit',
         level: SkillLevel.Expert,
-        icon: '/skills/redux.svg'
+        icon: '/skills/redux.svg',
       },
       {
         title: 'Tailwind CSS',
         level: SkillLevel.Expert,
-        icon: '/skills/tailwind.jpeg'
+        icon: '/skills/tailwind.svg',
       },
       {
         title: 'Zutand',
         level: SkillLevel.Intermediate,
-        icon: '/skills/zustand.jpeg'
+        icon: '/skills/zustand.jpeg',
       },
       {
         title: 'prettier',
         level: SkillLevel.Intermediate,
-        icon: '/skills/prettier.png'
+        icon: '/skills/prettier.svg',
       },
       {
         title: 'eslint',
         level: SkillLevel.Intermediate,
-        icon: '/skills/eslint.png'
-      }
-    ]
+        icon: '/skills/eslint.svg',
+      },
+    ],
   },
   {
     title: 'Backend Development',
@@ -82,29 +87,34 @@ const skills: ISkillListItem[] = [
       {
         title: '.Net Core',
         level: SkillLevel.Intermediate,
-        icon: '/skills/NETCore.svg'
+        icon: '/skills/NETCore.svg',
       },
       {
         title: 'Node.js',
         level: SkillLevel.Expert,
-        icon: '/skills/nodejs.svg'
+        icon: '/skills/nodejs.svg',
       },
       {
         title: 'Express.js',
         level: SkillLevel.Expert,
-        icon: '/skills/express.svg'
+        icon: '/skills/express.svg',
       },
       {
         title: 'Socket.io',
         level: SkillLevel.Intermediate,
-        icon: '/skills/socket-io.png'
+        icon: '/skills/socket-io.png',
       },
       {
         title: 'Nest.js',
         level: SkillLevel.Intermediate,
-        icon: '/skills/nestjs.svg'
-      }
-    ]
+        icon: '/skills/nestjs.svg',
+      },
+      {
+        title: 'Redis',
+        level: SkillLevel.Intermediate,
+        icon: '/skills/redis.svg',
+      },
+    ],
   },
   {
     title: 'Mobile App Development',
@@ -112,8 +122,8 @@ const skills: ISkillListItem[] = [
       {
         title: 'React Native',
         level: SkillLevel.Expert,
-        icon: '/skills/react_native.png'
-      }
+        icon: '/skills/react_native.svg',
+      },
       // {
       //   title: 'Flutter',
       //   level: SkillLevel.Expert,
@@ -124,7 +134,7 @@ const skills: ISkillListItem[] = [
       //   level: SkillLevel.Expert,
       //   icon: '/skills/getx.png'
       // }
-    ]
+    ],
   },
   {
     title: 'Database Management',
@@ -132,24 +142,24 @@ const skills: ISkillListItem[] = [
       {
         title: 'MongoDB',
         level: SkillLevel.Intermediate,
-        icon: '/skills/mongodb.svg'
+        icon: '/skills/mongodb.svg',
       },
       {
         title: 'PostgreSQL',
         level: SkillLevel.Intermediate,
-        icon: '/skills/postgresql.svg'
+        icon: '/skills/postgresql.svg',
       },
       {
         title: 'MySQL',
         level: SkillLevel.Intermediate,
-        icon: '/skills/mysql.svg'
+        icon: '/skills/mysql.svg',
       },
       {
         title: 'Query Optimization',
         level: SkillLevel.Intermediate,
-        icon: '/skills/query-optimization.svg'
-      }
-    ]
+        icon: '/skills/query-optimization.svg',
+      },
+    ],
   },
   {
     title: 'DevOps/VCS',
@@ -157,44 +167,44 @@ const skills: ISkillListItem[] = [
       {
         title: 'Docker',
         level: SkillLevel.Intermediate,
-        icon: '/skills/docker.png'
+        icon: '/skills/docker.png',
       },
       {
         title: 'AWS',
         level: SkillLevel.Intermediate,
-        icon: '/skills/aws.svg'
+        icon: '/skills/aws.svg',
       },
       {
         title: 'Git',
         level: SkillLevel.Expert,
-        icon: '/skills/git.svg'
+        icon: '/skills/git.svg',
       },
       {
         title: 'GitHub',
         level: SkillLevel.Expert,
-        icon: '/skills/github.svg'
+        icon: '/skills/github.svg',
       },
       {
         title: 'Code Push',
         level: SkillLevel.Intermediate,
-        icon: '/skills/code_push.svg'
+        icon: '/skills/code_push.svg',
       },
       {
         title: 'Fastlane',
         level: SkillLevel.Intermediate,
-        icon: '/skills/fast_lane.png'
+        icon: '/skills/fastlane.svg',
       },
       {
         title: 'Github Actions',
         level: SkillLevel.Intermediate,
-        icon: '/skills/github_action.png'
+        icon: '/skills/github_action.svg',
       },
       {
         title: 'GitLab CI/CD',
         level: SkillLevel.Intermediate,
-        icon: '/skills/gitlap_runner.png'
-      }
-    ]
+        icon: '/skills/gitlab.svg',
+      },
+    ],
   },
   {
     title: 'Testing',
@@ -202,14 +212,19 @@ const skills: ISkillListItem[] = [
       {
         title: 'Selenium',
         level: SkillLevel.Expert,
-        icon: '/skills/selenium.png'
+        icon: '/skills/selenium.png',
       },
       {
         title: 'Jest, Playwright, Cypress, Mocha',
         level: SkillLevel.Expert,
-        icon: '/skills/jest.svg'
-      }
-    ]
+        icon: '/skills/jest.svg',
+      },
+      {
+        title: 'Robot framework',
+        level: SkillLevel.Expert,
+        icon: '/skills/robotframework.svg',
+      },
+    ],
   },
   {
     title: 'Design Tools',
@@ -217,7 +232,7 @@ const skills: ISkillListItem[] = [
       {
         title: 'Figma',
         level: SkillLevel.Expert,
-        icon: '/skills/figma.png'
+        icon: '/skills/figma.svg',
       },
       // {
       //   title: 'Adobe XD',
@@ -227,9 +242,9 @@ const skills: ISkillListItem[] = [
       {
         title: 'Photoshop',
         level: SkillLevel.Intermediate,
-        icon: '/skills/photoshop.png'
-      }
-    ]
+        icon: '/skills/photoshop.svg',
+      },
+    ],
   },
   {
     title: 'Miscellaneous',
@@ -237,14 +252,24 @@ const skills: ISkillListItem[] = [
       {
         title: 'Firebase',
         level: SkillLevel.Intermediate,
-        icon: '/skills/firebase.svg'
+        icon: '/skills/firebase.svg',
       },
       {
         title: 'Ubuntu',
         level: SkillLevel.Intermediate,
-        icon: '/skills/ubuntu.png'
-      }
-    ]
+        icon: '/skills/ubuntu.png',
+      },
+      {
+        title: 'Digital ocean',
+        level: SkillLevel.Intermediate,
+        icon: '/skills/digital_ocean.svg',
+      },
+      {
+        title: 'VPS',
+        level: SkillLevel.Intermediate,
+        icon: '/skills/vps.svg',
+      },
+    ],
   },
   {
     title: 'Nontechnical Skills',
@@ -252,20 +277,20 @@ const skills: ISkillListItem[] = [
       {
         title: 'Problem Solving',
         level: SkillLevel.Expert,
-        icon: '/images/logical-thinking.png'
+        icon: '/images/logical-thinking.png',
       },
       {
         title: 'Collaboration',
         level: SkillLevel.Expert,
-        icon: '/images/collaboration.png'
+        icon: '/images/collaboration.png',
       },
       {
         title: 'Analytical Skills',
         level: SkillLevel.Expert,
-        icon: '/images/analytical-skills.png'
-      }
-    ]
-  }
+        icon: '/images/analytical-skills.png',
+      },
+    ],
+  },
 ];
 
 export default skills;

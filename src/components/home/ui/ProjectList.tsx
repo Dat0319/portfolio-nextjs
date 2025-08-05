@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { createRef } from "react";
-import { IProjectItem } from "@/types";
-import Row from "@/components/core/Row";
-import ProjectItem from "./ProjectItem";
-import Column from "@/components/core/Column";
+import Column from '@/components/core/Column';
+import Row from '@/components/core/Row';
+import { IProjectItem } from '@/types';
+import { createRef } from 'react';
+import ProjectItem from './ProjectItem';
 
 const ProjectList = ({ projects }: Readonly<{ projects: IProjectItem[] }>) => {
   const carouselRef = createRef<HTMLDivElement>();
