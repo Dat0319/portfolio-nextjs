@@ -36,6 +36,10 @@ const HomeSection6 = ({ id }: { id: string }) => {
           </p>
         </Column>
       </ConstrainedBox>
+
+      <div className="w-full text-center py-4 px-2 border-t-1 border-[rgba(0,0,0, 0.10)]">
+        © 2025 Dat0319 (John Tran). All rights reserved.
+      </div>
     </ResponsiveBox>
   );
 };
