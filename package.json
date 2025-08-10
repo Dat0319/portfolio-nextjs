@@ -6,6 +6,7 @@
     "dev": "next dev -p 4000",
     "build": "next build",
     "start": "next start",
+    "export": "npx serve out",
     "lint": "next lint",
     "push": "git add -A && git commit -m \"Update Changes & Bug Fixes\" && git push origin master"
   },
