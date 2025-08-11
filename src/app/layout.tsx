@@ -20,14 +20,14 @@ const poppins = Poppins({
     'Oxygen',
     'Ubuntu',
     'Fira Sans',
-    'Droid Sans',
-  ],
+    'Droid Sans'
+  ]
 });
 
 export const metadata: Metadata = {
   title: 'John Tran',
   description:
-    'Experienced Full-Stack Developer with 6+ years of expertise in front-end development using React.js for web applications and React Native for cross-platform mobile apps, Backend including Node.js with MongoDB and .NET Mysql, delivering scalable and high-performance solutions. Passionate about building intuitive user experiences and optimizing application performance. I can work independently, as well as configure, build, and deploy projects and modules with a professional skill set in system design, architecture, and microservices. ﻿Business domains: E-commerce, Network Social, Medical, Education.',
+    'Highly accomplished and results-oriented Senior Fullstack Developer with over 6 years of experience in designing, developing, and deploying robust and scalable web applications. Proficient in a wide range of frontend and backend technologies, with a proven track record of leading successful projects, mentoring junior developers, and delivering high-quality solutions that drive business value. Seeking to leverage extensive technical expertise and leadership skills to contribute to innovative and challenging projects.',
   robots: {
     index: true,
     follow: true,
@@ -36,34 +36,34 @@ export const metadata: Metadata = {
       follow: true,
       'max-video-preview': -1,
       'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
+      'max-snippet': -1
+    }
   },
   icons: [
     {
       url: '/favicon-16x16.ico',
       rel: 'icon',
       sizes: '16x16',
-      type: 'image/x-icon',
+      type: 'image/x-icon'
     },
     {
       url: '/favicon-32x32.ico',
       rel: 'icon',
       sizes: '32x32',
-      type: 'image/x-icon',
+      type: 'image/x-icon'
     },
     {
       url: '/favicon-48x48.ico',
       rel: 'icon',
       sizes: '48x48',
-      type: 'image/x-icon',
+      type: 'image/x-icon'
     },
     {
       url: '/favicon-64x64.ico',
       rel: 'icon',
       sizes: '64x64',
-      type: 'image/x-icon',
-    },
+      type: 'image/x-icon'
+    }
   ],
   keywords: [
     'john tran',
@@ -76,8 +76,8 @@ export const metadata: Metadata = {
     'john tran software engineer',
     'john tran web developer',
     'Dattran0318 github',
-    'Dattran0319 github',
-  ],
+    'Dattran0319 github'
+  ]
 };
 
 const GoogleAnalytics = dynamic(
@@ -85,7 +85,7 @@ const GoogleAnalytics = dynamic(
   { ssr: false }
 );
 const WebVitals = dynamic(() => import('@/components/common/WebVitals'), {
-  ssr: false,
+  ssr: false
 });
 const FloatingNavbar = dynamic(
   () => import('@/components/navbar/FloatingNavbar')

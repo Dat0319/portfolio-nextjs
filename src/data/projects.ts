@@ -2,119 +2,136 @@ import { IProjectItem, ProjectType, RepoType } from '@/types';
 
 const projects: IProjectItem[] = [
   {
-    id: 'social-media-app-flutter',
-    title: 'Social Media App',
+    id: 'typescript-node-base-application',
+    title: 'Typescript node base(express - postgresql)',
     description:
-      'A social media mobile application developed using Flutter, GetX, Firebase Notifications and Hive.',
-    icon: '/skills/react.svg',
+      'A TypeScript Node boilerplate is a pre-configured project template for quickly starting Node.js applications with TypeScript(ExpressJS + Gulp + Suppertest + Swagger + K8s + CICD)',
+    icon: '/skills/express.svg',
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: 'https://github.com/nixrajput/social-media-app-flutter',
-    url: 'https://github.com/nixrajput/social-media-app-flutter/releases',
-    tags: ['Flutter', 'Dart', 'GetX', 'Hive'],
+    githubUrl: 'https://github.com/Dat0319/ts-node-base',
+    url: 'https://github.com/Dat0319/ts-node-base/releases',
+    tags: [
+      'NodeJs',
+      'Express',
+      'docker compose',
+      'PostgresQL',
+      'swagger',
+      'auto generation'
+    ]
   },
   {
-    id: 'e-commerce-app-mern',
-    title: 'E-commerce App',
+    id: 'dotNet-expense-tracker-management-system',
+    title: 'Expense tracker management Backend',
     description:
-      'An e-commerce web application developed using React.js, Material UI, Redux, and Stripe.',
-    icon: '/skills/react.svg',
+      'An expense tracker management system developed using .Net Core 7, redis, aws sqs and mysql using Hexagonal Architecture.',
+    icon: '/skills/NETCore.svg',
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: 'https://github.com/nixrajput/ecommerce-web-reactjs',
-    url: 'https://nixlab-shop.vercel.app',
-    tags: ['React.js', 'Redux', 'Material UI', 'Stripe'],
+    githubUrl: 'https://github.com/Dat0319/ETS-BE',
+    url: 'https://github.com/Dat0319/ETS-BE/release',
+    tags: ['NetCore', 'Redis', 'Aws sqs, s3, ...', 'mysql']
   },
   {
-    id: 'video-calling-app-flutter',
-    title: 'Video Calling App',
+    id: 'react-expense-tracker-management-system',
+    title: 'Expense tracker management Frontend',
     description:
-      'A video calling mobile application developed using Flutter and Agora SDK that allows users to call each other face to face.',
+      'An expense tracker management system developed using Reactjs tailwind, zutand, eslint and prettier using component pattern',
     icon: '/skills/react.svg',
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: 'https://github.com/nixrajput/video-calling-app-flutter',
-    url: 'https://github.com/nixrajput/video-calling-app-flutter/releases',
-    tags: ['Flutter', 'Dart', 'GetX', 'Agora SDK'],
+    githubUrl: 'https://github.com/Dat0319/ETS-FE',
+    url: 'https://github.com/Dat0319/ETS-FE/releases',
+    tags: ['Flutter', 'Dart', 'GetX', 'Agora SDK']
+  },
+  {
+    id: 'java-spring-boot-boilerplate',
+    title: 'Java spring boot boilerplate',
+    description:
+      'A spring boot application developed using Java JPA, database migration, data validation, logging and transaction management.',
+    icon: '/skills/spring.svg',
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: 'https://github.com/Dat0319/java-sping-template',
+    url: 'https://github.com/Dat0319/java-sping-template/releases',
+    tags: ['Spring boot', 'JPA', 'Rest Api']
+  },
+  {
+    id: 'nestjs-template-api',
+    title: 'Nestjs Product api',
+    description:
+      'A RESTful API developed using Nestjs, Docker, ORM,  and PostgresQL to integrate backend and frontend with ease.',
+    icon: '/skills/nestjs.svg',
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: 'https://github.com/Dat0319/nestjs-template-api',
+    tags: ['NestJS', 'PostgresQL', 'Sequelize ORM', 'Docker Compose', 'Swagger']
   },
   {
     id: 'social-media-api-nodejs',
     title: 'Social Media API',
     description:
       'A RESTful API developed using Node.js, Express.js, and MongoDB to integrate backend and frontend with ease.',
-    icon: '/skills/nestjs.svg',
+    icon: '/skills/express.svg',
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: 'https://github.com/nixrajput/social-media-api-nodejs',
-    tags: ['Node.js', 'Express.js', 'MongoDB', 'WebSocket'],
+    githubUrl: 'https://github.com/Dat0319/expressjs-social-media-api',
+    tags: ['Node.js', 'Express.js', 'MongoDB', 'WebSocket']
   },
   {
-    id: 'grocery-list-maker-app-flutter',
-    title: 'Grocery List Maker App',
+    id: 'react-native-template',
+    title: 'A React native CLI typescript custom',
     description:
-      'A grocery list maker mobile application developed using Flutter, BloC, Hive DB, and PDF.',
+      'React native template for custom react CLI, have some libraries: action sheet, calendars, collapsible, fast-images, flash message, ... to create a full base template for create a new project faster.',
+    icon: '/skills/react_native.svg',
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: 'https://github.com/Dat0319/react-native-template-dattd',
+    tags: ['React native', 'custom template', 'rn-cli']
+  },
+  {
+    id: 'roadmap-clone',
+    title: 'roadmap-for-skills',
+    description:
+      'A Suggestion system for any skills, any thing you want to learn, this application will suggest a roadmap for you as a AI assistant to learn any things.',
     icon: '/skills/react.svg',
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: 'https://github.com/nixrajput/grocery-list-maker-flutter',
-    url: 'https://github.com/nixrajput/grocery-list-maker-flutter/releases/latest',
-    tags: ['Flutter', 'Dart', 'BLoC', 'PDF', 'Hive'],
+    githubUrl: 'https://github.com/Dat0319/roadmap-clone',
+    tags: ['React js', 'tailwind', 'radix-ui', 'open AI']
   },
   {
-    id: 'e-commerce-api-nodejs',
-    title: 'E-commerce API',
+    id: 'chat_app_dot_net_core',
+    title: 'Chat app dot net core',
     description:
-      'A RESTful API developed using Node.js, Express.js, MongoDB, and Stripe to integrate e-commerce backend.',
-    icon: '/skills/nodejs.svg',
+      'A dot net project for realtime chat with dotnet 8, k8s, mysql and redis, clean architecture. Front end using react + vite and tailwind',
+    icon: '/skills/NETCore.svg',
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: 'https://github.com/nixrajput/ecommerce-api-nodejs',
-    tags: ['Node.js', 'Express.js', 'MongoDB', 'Stripe'],
+    githubUrl: 'https://github.com/Dat0319/chat_app_dot_net_core',
+    tags: ['Dot net core', 'mysql', 'redis', 'react js', 'tailwind']
   },
   {
-    id: 'flutter-carousel-widget-package',
-    title: 'Flutter Carousel Widget Package',
+    id: 'robot-framework-test-express',
+    title: 'Automation Integration test with robot framework',
     description:
-      'A customizable carousel widget for Flutter, offering features such as infinite scrolling, auto-scrolling, custom child widgets, pre-built indicators, expandable child widgets, auto-sized child support, and enlarged center page.',
-    icon: '/skills/react.svg',
+      'This repository contains a mockup server using express and mysql to create restful api, then using robot framework to integration test api with business logic.',
+    icon: '/skills/robotframework.svg',
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: 'https://github.com/nixrajput/flutter-carousel-widget-package',
-    tags: ['Flutter', 'Dart', 'Carousel'],
+    githubUrl: 'https://github.com/Dat0319/robot-framework-test-express',
+    tags: ['python', 'express']
   },
   {
-    id: 'get-time-ago-package',
-    title: 'GetTimeAgo Package',
+    id: 'Jest_huskey_example',
+    title: 'Automation Integration test with jest',
     description:
-      "A Dart package that converts and formats DateTime objects into human-readable 'time ago' strings, such as '20 seconds ago', 'a minute ago', or '7 hours ago'.",
-    icon: '/skills/react.svg',
+      'This repository contains a mock upp website using react js and jest to ui integration test api with business logic.',
+    icon: '/skills/jest.svg',
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: 'https://github.com/nixrajput/gettimeago',
-    tags: ['Dart', 'DateTime', 'Formatting'],
-  },
-  {
-    id: 'portfolio-website',
-    title: 'Portfolio Website',
-    description:
-      'This repository contains the source code for a portfolio website built using Next.js and Sass.',
-    icon: '/skills/nextjs.png',
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: 'https://github.com/nixrajput/portfolio-website',
-    url: 'https://nixrajput.dev',
-    tags: ['Next.js', 'Sass', 'Web Development'],
-  },
-  {
-    id: 'bus-reservation-system-management',
-    title: 'Bus Reservation System Management',
-    description:
-      'This repository contains the Bus Reservation System Management project developed using Object Oriented Programming (OOP) and File Handling concepts in C++.',
-    icon: '/skills/react.svg',
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: 'https://github.com/nixrajput/bus-reservation-system',
-    tags: ['C++', 'OOP', 'File Handling'],
-  },
+    githubUrl: 'https://github.com/Dat0319/Jest_huskey_example',
+    tags: ['javascript', 'jest']
+  }
 ];
 export default projects;

@@ -18,23 +18,25 @@ export interface INavItem {
 export interface IExperienceItem {
   designation: string;
   company: string;
+  company_link: string;
   startDate: string;
   endDate?: string;
   isCurrentJob: boolean;
   location: string;
   shortDescription?: string;
+  tech: string;
   description: string[];
 }
 
 export enum RepoType {
   Public,
-  Private,
+  Private
 }
 
 export enum ProjectType {
   Personal,
   JobWork,
-  Freelance,
+  Freelance
 }
 
 export interface IProjectItem {
@@ -68,7 +70,7 @@ export interface ISkillListItem {
 export enum SkillLevel {
   Expert,
   Intermediate,
-  Beginner,
+  Beginner
 }
 
 export interface ISkillItem {
